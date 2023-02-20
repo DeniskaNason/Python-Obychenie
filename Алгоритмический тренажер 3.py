@@ -1,2 +1,7 @@
-for x in range(0, 1001, 10):
-    print(x)
+a = int(input("Введи A: "))
+if a < 10:
+    b = 0
+    print("B =", b)
+else:
+    b = 99
+    print("B =", b)

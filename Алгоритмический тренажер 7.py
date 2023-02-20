@@ -1,4 +1,5 @@
-for a in range(10):
-    for b in range(16):
-        print('#', end='')
-    print()
+points = int(input("Введи points: "))
+if points >=9 and points <= 51:
+    print('Допустимые точки')
+else:
+    print('Недопустимые точки')
